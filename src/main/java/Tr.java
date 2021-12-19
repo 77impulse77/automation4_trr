@@ -14,7 +14,7 @@ public class Tr {
 
     public static double tr(int a, int b, int c) {
 
-        double p = ((float)(a+b+c))/2;
+        double p = ((double)(a+b+c))/2;
 
         if (p <= a || p <= b || p <= c || a*b*c==0) {
 //            System.out.println(" Это не треугольник");
